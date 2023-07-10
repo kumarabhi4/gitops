@@ -8,6 +8,8 @@ spec:
    server: https://kubernetes.default.svc
  project: default
  source:
-   path: argocd-kustomizen
-   repoURL: https://github.com/kumarabhi4/gitops.gitt
+   path: argocd-kustomize
+   repoURL: https://github.com/kumarabhi4/gitops.git
    targetRevision: main
+ syncPolicy:
+   automated: {}
